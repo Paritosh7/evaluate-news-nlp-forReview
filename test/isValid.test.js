@@ -9,5 +9,5 @@ test("1234 should return false", () => {
    *  with specific input, toBe func takes the desired
    * output.
    */
-  expect(handleSubmit("12")).toBe(false);
+  expect(isValid("12")).toBe(false);
 });

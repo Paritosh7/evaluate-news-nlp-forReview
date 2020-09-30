@@ -5,8 +5,9 @@ function updateUI(res, flag) {
     score tag : ${res.score_tag},  
     subjectivity : ${res.subjectivity}, 
     confidence : ${res.confidence}`;
-  } else
+  } else {
     results.innerHTML = `${res} : Just numbers | empty fields are not valid`;
+  }
 }
 
 export { updateUI };
